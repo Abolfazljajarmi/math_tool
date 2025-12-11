@@ -1,0 +1,162 @@
+
+.voroodi{
+ font-size: 1.5em;
+ border-radius: 20px;
+ margin-left: 8px;
+ margin-right: 8px;
+  font-family: "Vazirmatn", sans-serif;
+  text-align: center;
+  transition: 0.5s;
+
+  
+ 
+}
+
+.voroodi:hover{
+ 
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.393)
+}
+
+
+
+.tabe{ 
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+  margin-left: 2em;
+  font-family: "Vazirmatn", sans-serif;
+  gap: 2em;
+  
+  
+
+
+}
+.zabete{
+    font-size: 1.8em;
+    font-family:"Libertinus Math", system-ui ;
+}
+
+.abshari {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(65, 28, 187);
+    transition: 0.4s;
+    color: azure;
+     flex: 0 1 200px;
+    
+}
+
+
+.abshari:hover{
+    background-color: rgb(33, 15, 95);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.goldani {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(59, 215, 3);
+    transition: 0.4s;
+    color: azure;
+     flex: 0  1 50px;
+     margin-right: 50
+     px;
+}
+
+.goldani:hover {
+     background-color: rgb(36, 124, 4);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.sahmi {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(255, 2, 2);
+    transition: 0.4s;
+    color: azure;
+    flex: 0 1 200px;
+}
+
+.sahmi:hover{
+      background-color: rgb(121, 2, 2);
+    box-shadow: 5px 5px 5px gray;
+}
+.formool{
+    font-family: "Libertinus Math", system-ui;
+    font-style: italic;
+}
+
+
+
+
+.fx{
+    font-size: 1.8em;
+     font-family: "Libertinus Math", system-ui;
+     font-style: italic;
+
+}
+
+
+
+.submitbtn {
+  display: block;
+  cursor: pointer;
+  color: white;
+  margin:  25px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 3px;
+  isolation: isolate;
+  transition: 0.5s;
+}
+
+.submitbtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  background-size: 25% 100%;
+  animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
+  animation-play-state: paused;
+  translate: -5% 0%;
+  transition: translate 0.25s ease-out;
+}
+
+.submitbtn:hover::before {
+  animation-play-state: running;
+  transition-duration: 0.75s;
+  translate: 0% 0%;
+}
+
+.submitbtn:hover{
+  padding-bottom:2px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+
+}
+
+@keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+.submitbtn span {
+  position: relative;
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  background: #000;
+  border-radius: 3px;
+  height: 100%;
+}
