@@ -12,20 +12,22 @@
 <title>تابع</title>
 </head>
 <body class="body">
+  
+
   <div class="tabe">
     
 
   
 
     
-   <div class="abshari">
+   <div class="modernbox" class="abshari">
     <h1 >تابع آبشاری</h1>
     <h2 class="formool ">f(x)=|x+a|-|x+b|</h2>
-    <input   id="aAbshari"   class="voroodi" placeholder="مقدار a را وارد نمایید"><br>
+    <input type="number"  id="aAbshari"   class="voroodi" placeholder="مقدار a را وارد نمایید"><br>
     
-     <input id="bAbshari" class="voroodi" placeholder="مقدار b را وارد نمایید"><br>
+     <input  type="number" id="bAbshari" class="voroodi" placeholder="مقدار b را وارد نمایید"><br>
     
-     <input id="xAbshari" class="voroodi" placeholder="مقدار x را وارد نمایید"><br>
+     <input type="number" id="xAbshari" class="voroodi" placeholder="مقدار x را وارد نمایید"><br>
     
    
    
@@ -35,14 +37,14 @@
     </div> 
    
        <! tabe goldani>
-     <div class="goldani">
+     <div class="modernbox" class="goldani">
     <h1 >تابع گلدانی</h1>
     <h2    class="formool">f(x)=|x+a|+|x+b|</h2>
-    <input  id="aGoldani"  class="voroodi" placeholder="مقدار a را وارد نمایید"><br>
+    <input type="number"  id="aGoldani"  class="voroodi" placeholder="مقدار a را وارد نمایید"><br>
     
-     <input id="bGoldani" class="voroodi" placeholder="مقدار b را وارد نمایید"><br>
+     <input type="number" id="bGoldani" class="voroodi" placeholder="مقدار b را وارد نمایید"><br>
     
-     <input id="xGoldani" class="voroodi" placeholder="مقدار x را وارد نمایید"><br>
+     <input type="number" id="xGoldani" class="voroodi" placeholder="مقدار x را وارد نمایید"><br>
      <a id="submitGoldani" class="submitbtn"><span>محاسبه</span></a>
     <P id="zabeteGoldani" class="zabete"></P>
     <P id="fxGoldani" class="fx"> </P>
@@ -50,26 +52,47 @@
 
 
     <!سهمی>
-      <div class="sahmi">
+      <div class="modernbox" class="sahmi">
     <h1 >سهمی</h1>
     <h2 class="formool ">f(x)=ax²+bx+c</h2>
-    <input id="aSahmi"  class="voroodi" placeholder="مقدار a را وارد نمایید"><br>
+    <input type="number"  id="aSahmi"  class="voroodi" placeholder="مقدار a را وارد نمایید"><br>
     
-     <input id="bSahmi"class="voroodi" placeholder="مقدار b را وارد نمایید"><br>
+     <input type="number" id="bSahmi"class="voroodi" placeholder="مقدار b را وارد نمایید"><br>
     
-     <input id="cSahmi" class="voroodi" placeholder="مقدار c را وارد نمایید"><br>
+     <input type="number" id="cSahmi" class="voroodi" placeholder="مقدار c را وارد نمایید"><br>
      
-     <input id="xSahmi"  class="voroodi" placeholder="مقدار x را وارد نمایید"><br>
+     <input  type="number" id="xSahmi"  class="voroodi" placeholder="مقدار x را وارد نمایید"><br>
 
-       
-    
     <a  id="submitSahmi" class="submitbtn"><span>محاسبه</span></a>
     <P id="zabeteSahmi" class="zabete">  </P>
     <P id="fxSahmi" class="fx">  </P>
     </div> 
  
+  <!معادله درجه 2>
+    <div class="modernbox" class="moadeleDarage2">
+      <h1 style="font-family: Vazirmatn, sans-serif;">حل معادله درجه دوم</h1>
+      
 
+    <div class="moadele">
+   <input id="amoadele2" class="adad"   type="number"><p class="moteghayer">x²</p>
+
+   <input id="bmoadele2" class="adad"   type="number"><p class="moteghayer">x</p>
   
+   <input class="adad"  id="cmoadele2"  type="number">
+   </div>
+
+   <a  onclick="moadeleDarage2Rishe()" class="submitbtn"><span>محاسبه</span></a><br>
+   <div class="deltacontainer">
+   <p class="result"id="deltaresult"></p>
+  
+    <p class="result" id="deltaType"></p>
+   </div>
+  <p  class="result" id="resultofmoadele2"></p>
+   
+
+    </div>
+  
+    
     </div>
 
  
@@ -84,7 +107,7 @@
 
   
 
-  
+ 
 </body>
   <script src="tabescript.js"></script>
 </html>
