@@ -42,7 +42,7 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 30px;
-    background-color: rgb(65, 28, 187);
+    
     transition: 0.4s;
     color: azure;
      flex: 0 1 200px;
@@ -51,7 +51,7 @@
 
 
 .abshari:hover{
-    background-color: rgb(33, 15, 95);
+    
     box-shadow: 5px 5px 5px gray;
 }
 
@@ -59,7 +59,7 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 30px;
-    background-color: rgb(59, 215, 3);
+   
     transition: 0.4s;
     color: azure;
      flex: 0  1 50px;
@@ -68,7 +68,7 @@
 }
 
 .goldani:hover {
-     background-color: rgb(36, 124, 4);
+     
     box-shadow: 5px 5px 5px gray;
 }
 
@@ -76,14 +76,13 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 30px;
-    background-color: rgb(255, 2, 2);
     transition: 0.4s;
     color: azure;
     flex: 0 1 200px;
 }
 
 .sahmi:hover{
-      background-color: rgb(121, 2, 2);
+      
     box-shadow: 5px 5px 5px gray;
 }
 .formool{
@@ -160,3 +159,88 @@
   border-radius: 3px;
   height: 100%;
 }
+
+.adad{
+  max-width:4rem;
+  min-width: 2rem;
+  font-size: 1.9rem;
+  font-family: "Libertinus Math", system-ui;
+  text-align: center;
+  border: none;
+  vertical-align: middle;
+  padding: 0px;
+  border-radius: 1rem;
+    margin-left: 5px;
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+
+
+  
+}
+
+.moadeleDarage2{
+text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+   
+    transition: 0.4s;
+    color: azure;
+    
+
+}
+
+.adad:hover{background-color: hsl(324, 7%, 86%)}
+
+
+.moadele{display: flex;
+
+
+  padding: 1rem;
+  text-align: center;}
+
+.moteghayer{
+  font-size: 1.9rem;
+  text-align: center;
+  font-family: "Libertinus Math", system-ui;
+  vertical-align: middle;
+ 
+  border-radius: 1rem;
+  margin-left: 5px;
+  margin-left: 5px;
+  
+  
+}
+.result{
+  font-size: 2rem;
+  font-family: "Vazirmatn" sans-serif;
+  margin-top: 0.5px;
+  margin-bottom: 0;
+}
+
+.deltacontainer{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.modernbox{
+  background-color: rgba(11, 19, 85, 0.684);
+      text-align: center;
+    border: none;
+    border-radius: 30px;
+    backface-visibility: visible;
+    transition: 0.4s;
+    color: azure;
+    flex: 0 1 200px;
+    
+}
+
+body{
+   background-color: rgba(1, 1, 87, 0.627);
+    background-image:  url(asset/background.jpg);
+  background-position-y: 100;
+  background-size:cover;
+  
+
+}
+
